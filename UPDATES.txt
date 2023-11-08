@@ -1,0 +1,3 @@
+mention all changes & progress u make here
+
+medhi : i created a seperate css file for each html and gave each page its own folder.
