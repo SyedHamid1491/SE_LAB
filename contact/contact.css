@@ -1,0 +1,17 @@
+.blank{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/coffee-beans-top-view-white-background-space-text.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.blank_page_1{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: x-large;
+    text-align: center;
+}
