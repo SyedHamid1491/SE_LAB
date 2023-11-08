@@ -6,7 +6,7 @@
 a{
     cursor: pointer;
 }
-.header_main{
+.nav_bar{
     width: 100%;
     height: 60px;
     background-color: #582817;
@@ -20,24 +20,24 @@ a{
     height: 100%;
 }
 .logo_image:hover{
-    background: rgba(64, 31, 8, 0.824);
+    background: #AA5042;
     transition: 0.2s;
 }
-.main_nav_links{
+.nav_bar_links{
     text-align: right;
 }
-.main_nav_links ul li{
+.nav_bar_links ul li{
     list-style: none;
     display: inline-block;
     padding: 18px 18px;
     position: relative;
 }
-.main_nav_links ul li a{
+.nav_bar_links ul li a{
     text-decoration: none;
     font-size: 20px;
     color: #fff;
 }
-.main_nav_links ul li::after{
+.nav_bar_links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -46,12 +46,12 @@ a{
     margin: auto;
     transition: 0.3s;
 }
-.main_nav_links ul li:hover::after{
+.nav_bar_links ul li:hover::after{
     width: 100%;
 }
-.main_nav_links ul li a:hover{
+.nav_bar_links ul li a:hover{
     color: #AA5042;
-    margin: auto;
+
 }
 .home_page_1{
     min-height: 100vh;
@@ -76,6 +76,7 @@ a{
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: x-large;
+    text-align: center;
 }
 .what_we_do{
     text-align: center;
