@@ -1,3 +1,4 @@
+/*general website shit*/
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 a{
     cursor: pointer;
 }
+/*navigation bar*/
 .nav_bar{
     width: 100%;
     height: 60px;
@@ -37,6 +39,7 @@ a{
     font-size: 20px;
     color: #fff;
 }
+/* mehdi  ill remove this after u have hover effect in js*/
 .nav_bar_links ul li::after{
     content: '';
     width: 0%;
@@ -53,41 +56,5 @@ a{
     color: #AA5042;
 
 }
-.home_page_1{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(images/background.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-.blank{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(images/coffee-beans-top-view-white-background-space-text.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-.blank_page_1{
-    width: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: x-large;
-    text-align: center;
-}
-.what_we_do{
-    text-align: center;
-}
-.what_we_do:hover{
-    padding: 20px 20px;
-    background: #AA5042;
-}
-.lorem{
-    background: #d8bd8a;
-    display: flex;
-    justify-content:space-evenly;
-    padding: 40px 40px;
-}
+/*footer*/
+
