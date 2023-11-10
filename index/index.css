@@ -1,3 +1,12 @@
+body{
+    font-family: 'Playfair Display', serif;
+font-family: 'Shippori Mincho B1', serif;
+}
+p{
+    font-family: 'Playfair Display', serif;
+font-family: 'Shippori Mincho B1', serif;
+}
+
 .home_page_1{
     min-height: 100vh;
     width: 100%;
@@ -23,16 +32,106 @@
     font-size: x-large;
     text-align: center;
 }
-.what_we_do{
+
+
+/* mehdi work */
+
+.intro-section{
+    font-family: 'Playfair Display', serif;
+font-family: 'Shippori Mincho B1', serif;
+}
+/*intro*/
+
+.intro{
+    padding: 15px;
+    background-color: #d8bd8a;
+    color:#582817
+}
+
+.intro h1{
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+font-family: 'Shippori Mincho B1', serif;
+    color: #582817;
+    text-decoration: underline;
+}
+
+.intro p {
+    font-weight: 600;
+    padding-left: 5px;
+    max-width: 30ch;
+}
+
+
+
+#intro-span-revolt{
+    color: #aa5042;
+}
+
+/* About us */
+.aboutus{
+    text-align: right;
+    padding: 15px;
+    background-color: #aa5042;
+    color: #d8bd8a
+}
+
+.aboutus h1{
+    text-decoration: underline;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+font-family: 'Shippori Mincho B1', serif;
+    color:#d8bd8a
+}
+
+.aboutus p {
+    max-width: 40ch;
+    text-align: right;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* servives */
+
+.services {
     text-align: center;
 }
-.what_we_do:hover{
-    padding: 20px 20px;
-    background: #AA5042;
+
+#sliderImg{
+    width: 1460px;
+    height: 500px;
 }
-.lorem{
-    background: #d8bd8a;
-    display: flex;
-    justify-content:space-evenly;
-    padding: 40px 40px;
-}
+
+ .container1{
+    position: relative;
+  text-align: center;
+  color: white;
+ }
+
+ .container2{
+    position: relative;
+  text-align: center;
+  color: white;
+ }
+
+ .container3{
+    position: relative;
+  text-align: center;
+  color: white;
+ }
+
+ .sliderTxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .sliderH1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ /* services -- slider */

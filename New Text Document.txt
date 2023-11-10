@@ -11,3 +11,62 @@
     width: 100%;
 }
 
+    
+            <section class="lorem">
+                <div class="what_we_do">
+                    <h1>what we do</h1>
+                    <P>lorem ipsum </P>
+                </div>
+                <div class="what_we_do">
+                    <h1>what we do</h1>
+                    <P>lorem ipsum </P>
+                </div>
+                <div class="what_we_do">
+                    <h1>what we do</h1>
+                    <P>lorem ipsum </P>
+                </div>
+
+                .what_we_do{
+    text-align: center;
+}
+.what_we_do:hover{
+    padding: 20px 20px;
+    background: #AA5042;
+}
+.lorem{
+    background: #d8bd8a;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 40px 40px;
+}
+
+
+  <div class = services>
+                <div id = 'slider'>
+                    <div id="slider-container">
+                        <div class="slide">
+                            <div class = "container1">
+                        <img src="/images/cup.jpg" class = "sliderImg" alt="">
+                        <h1 class = "sliderH1">The Hipsters Brew shop</h1>
+                        <p class = "sliderTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat labore fuga ipsum porro sed assumenda hic sapiente necessitatibus atque earum. Molestias saepe in, hic quo tenetur amet ut veritatis impedit?</p>
+                            </div>
+                    </div>
+                        <div class="slide">
+                            <div class = 'container2'>
+                            <img class = "sliderImg" src="/images/bag.jpg" alt="">
+                            <h1 class = "sliderH1">Buy our beans</h1>
+                            <p class = "sliderTxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati perspiciatis quod magnam labore omnis adipisci magni, voluptas, maiores corrupti ea rerum neque iste ex odio nesciunt incidunt velit explicabo quam?</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class='container3'>
+                            <img class = "sliderImg" src="/images/merch.jpg" alt="">
+                            <h1 class = "sliderH1">Hip Merch</h1>
+                            <p class = "sliderTxt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores natus, eaque vel blanditiis quas dolorem provident deserunt, molestias tenetur placeat excepturi in necessitatibus at facilis alias magnam similique et vitae!</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+                </div>
