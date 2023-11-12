@@ -1,0 +1,10 @@
+#2d102a Dark bits
+#530030
+#810230
+#c82a3f
+#ff593d
+#fe6a40
+#ff7f4b
+#ffdbc4
+#ffe9e2 Light bits
+background: linear-gradient(#fe6a40,#530030);

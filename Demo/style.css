@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata&family=Oswald:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+li,a,button{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
